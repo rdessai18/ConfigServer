@@ -16,6 +16,8 @@ spring:
           password: "{cipher}34695c008ce52d41a94cb13fe9dd3ac2c6747df08739222bc5e7da962906cd7085eb59a6b32dde14f83a18f5996e3316af5e1e74efe2d476f416c7a29564e233"
           clone-on-start: true
           default-label: main
+          search-paths:
+            - EventDrivenKafka
 logging:
   level:
     root: trace
