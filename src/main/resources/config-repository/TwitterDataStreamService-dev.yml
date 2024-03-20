@@ -1,8 +1,4 @@
-spring:
-  application:
-    name: TwitterDataStreamService
-
-twitter-to-kafka:
+twitter-kafka-service:
   twitter-keywords:
     - Java
     - Microservices
