@@ -21,7 +21,7 @@ spring:
             - ScalerProject/
 logging:
   level:
-    root: trace
+    root: info
     org.spring.framework.cloud.config: info
 
 management:
