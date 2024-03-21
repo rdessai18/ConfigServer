@@ -17,11 +17,12 @@ spring:
           clone-on-start: true
           default-label: main
           search-paths:
-            - EventDrivenKafka
+            - EventDrivenKafka/
+            - ScalerProject/
 logging:
   level:
     root: trace
-    org.spring.framework.cloud.config: debug
+    org.spring.framework.cloud.config: info
 
 management:
   endpoints:
